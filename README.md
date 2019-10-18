@@ -28,7 +28,7 @@ server.get("/", (req, res) => {
 	/**
 	 * Example
 	 * {
-		 raw: "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Mobile Safari/537.36",
+	 *	 raw: "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Mobile Safari/537.36",
 	 *	 browser: {
 	 *	 	name: "Chrome",
 	 *	 	version: "77"
