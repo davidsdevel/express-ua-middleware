@@ -1,0 +1,28 @@
+{
+	"name": "express-ua-middleware",
+	"version": "0.1.0",
+	"description": "Express middleware to parse user-agent header",
+	"keywords": [
+		"express",
+		"middleware",
+		"user-agent"
+	],
+	"engines": {
+		"node": ">= 0.1"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/davidsdevel/express-ua-middleware.git"
+	},
+	"bugs": {
+		"url": "https://github.com/davidsdevel/express-ua-middleware/issues"
+	},
+	"homepage": "https://github.com/davidsdevel/express-ua-middleware#readme",
+	"author": "David's Devel <davidsdevel@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"ua-parser-js": "^0.7.20"
+	}
+}
