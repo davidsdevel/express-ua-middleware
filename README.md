@@ -40,8 +40,7 @@ server.get("/", (req, res) => {
 	 *	 device: {
 	 *	 	vendor: "Samsung",
 	 *	 	model: "SM-G900P"
-	 *	 },
-	 *	 cpu: undefined
+	 *	 }
 	 * }
 	 */
 })

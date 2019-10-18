@@ -24,5 +24,8 @@
 	"private": false,
 	"dependencies": {
 		"ua-parser-js": "^0.7.20"
+	},
+	"devDependencies": {
+		"express": "^4.17.1"
 	}
 }

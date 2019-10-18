@@ -5,17 +5,16 @@ module.exports = (req, res, next) => {
 	const parsed = parser(ua);
 
 	req.userAgent = {
-		raw: ua.ua,
+		raw: parsed.ua,
 		browser: {
-			name: ua.browser.name,
-			version: ua.browser.major
+			name: parsed.browser.name,
+			version: parsed.browser.major
 		},
-		os: ua.os,
+		os: parsed.os,
 		device: {
-			vendor: ua.device.vendor,
-			model: ua.device.model
-		},
-		cpu: ua.cpu.architecture
+			vendor: parsed.device.vendor,
+			model: parsed.device.model
+		}
 	}
 	next();
 }
