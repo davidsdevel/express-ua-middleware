@@ -47,6 +47,31 @@ server.get("/", (req, res) => {
 
 ```
 
+Or you can use as parser, with method `userAgentFromString`
+
+```js
+server.get("/", (req, res) => {
+	console.log(req.userAgentFromString(req.headers["user-agent"]));
+	/**
+	 * Example
+	 * {
+	 *	 browser: {
+	 *	 	name: "Chrome",
+	 *	 	version: "77"
+	 *	 },
+	 *	 os: {
+	 *	 	name: "Android",
+	 *	 	version: "5.0"
+	 *	 },
+	 *	 device: {
+	 *	 	vendor: "Samsung",
+	 *	 	model: "SM-G900P"
+	 *	 }
+	 * }
+	 */
+})
+
+```
 ## Contributing
 
 To contribute with the project, open a **issue** on Github or create a **Pull Request**
