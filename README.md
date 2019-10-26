@@ -14,7 +14,7 @@ yarn add express-ua-middleware
 
 ## Use
 
-This is a middleware to provide parsed user agent header, to use simply, import module, and add on `express.use` function.
+This is a middleware to provide parsed user agent header, to use simply, import module, then use it on `express.use` method.
 
 ```js
 const userAgent = require("express-ua-middleware");

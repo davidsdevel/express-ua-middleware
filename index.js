@@ -4,7 +4,7 @@ module.exports = (req, res, next) => {
 	const ua = req.headers["user-agent"];
 	const parsed = parser(ua);
 
-	req.userAgentFromRaw = raw => {
+	req.userAgentFromString = raw => {
 		const parsedRaw = parser(raw);
 
 		return {
