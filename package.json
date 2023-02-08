@@ -1,6 +1,6 @@
 {
 	"name": "express-ua-middleware",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "Express middleware to parse user-agent header",
 	"keywords": [
 		"express",
